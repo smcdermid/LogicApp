@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "westus2"
+            "value": "australiasoutheast"
         },
         "virtualNetworkName": {
             "value": "ContosoVNET"
@@ -47,10 +47,10 @@
             "value": "contosoAppInsight"
         },
         "deploymentStorageAccountName": {
-            "value": "contosodeployments98"
+            "value": "pplabcontosodeployments98"
         },
         "applicationStorageAccountName": {
-            "value": "contosoappstate98"
+            "value": "pplabcontosoappstate98"
         },
         "storageAccountType": {
             "value": "Standard_LRS"
@@ -101,7 +101,7 @@
             "value": "2020-03-01"
         },
         "logicAppBEname": {
-            "value": "LogicAppBE98"
+            "value": "pplabLogicAppBE98"
         },
         "logicAppBEHostingPlanBEName": {
             "value": "LogicAppBEPlan"
@@ -131,7 +131,7 @@
             "value": "LogicAppBE-PrivateEndpointConnection"
         },
         "logicAppFEname": {
-            "value": "LogicAppFE98"
+            "value": "pplabLogicAppFE98"
         },
         "logicAppFEHostingPlanFEName": {
             "value": "LogicAppFEPlan"
