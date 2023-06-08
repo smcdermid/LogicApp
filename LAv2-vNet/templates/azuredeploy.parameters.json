@@ -47,10 +47,10 @@
             "value": "contosoAppInsight"
         },
         "deploymentStorageAccountName": {
-            "value": "pplabcontosodeployments98"
+            "value": "pplabdeployments98"
         },
         "applicationStorageAccountName": {
-            "value": "pplabcontosoappstate98"
+            "value": "pplaboappstate98"
         },
         "storageAccountType": {
             "value": "Standard_LRS"
