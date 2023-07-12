@@ -3,54 +3,54 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "australiasoutheast"
+            "value": "australiaeast"
         },
         "virtualNetworkName": {
-            "value": "ContosoVNET"
+            "value": "armVNET"
         },
         "addressSpaces": {
             "value": [
-                "172.29.0.0/16"
+                "172.24.104.128/25"
             ]
         },
         "subnet0_name": {
             "value": "default"
         },
         "subnet0_addressRange": {
-            "value": "172.29.0.0/24"
+            "value": "172.24.104.128/27"
         },
         "subnet1_name": {
-            "value": "private-links"
+            "value": "arm-private-links"
         },
         "subnet1_addressRange": {
-            "value": "172.29.1.0/24"
+            "value": "172.24.104.160/27"
         },
         "subnet2_name": {
-            "value": "App1"
+            "value": "armApp1"
         },
         "subnet2_addressRange": {
-            "value": "172.29.2.0/24"
+            "value": "172.24.104.192/27"
         },
         "subnet3_name": {
-            "value": "App2"
+            "value": "armApp2"
         },
         "subnet3_addressRange": {
-            "value": "172.29.3.0/24"
+            "value": "172.24.104.224/27"
         },
         "ddosProtectionPlanEnabled": {
             "value": false
         },
         "privateLinkSubnet": {
-            "value": "private-links"
+            "value": "arm-private-links"
         },
         "appInsightName": {
-            "value": "contosoAppInsight"
+            "value": "armAppInsight"
         },
         "deploymentStorageAccountName": {
-            "value": "pplabdeployments98"
+            "value": "armppdeployments98"
         },
         "applicationStorageAccountName": {
-            "value": "pplaboappstate98"
+            "value": "armppoappstate98"
         },
         "storageAccountType": {
             "value": "Standard_LRS"
@@ -80,31 +80,31 @@
             "value": "Allow"
         },
         "privateBlobEndpointName": {
-            "value": "private-blob-endpoint"
+            "value": "arm-private-blob-endpoint"
         },
         "privateBlobEndpointConnectionName": {
-            "value": "private-blob-endpoint-connection"
+            "value": "arm-private-blob-endpoint-connection"
         },
         "privateTableEndpointName": {
-            "value": "private-table-endpoint"
+            "value": "arm-private-table-endpoint"
         },
         "privateTableEndpointConnectionName": {
-            "value": "private-table-endpoint-connection"
+            "value": "arm-private-table-endpoint-connection"
         },        
         "privateQueueEndpointName": {
-            "value": "private-queue-endpoint"
+            "value": "arm-private-queue-endpoint"
         },
         "privateQueueEndpointConnectionName": {
-            "value": "private-queue-endpoint-connection"
+            "value": "arm-private-queue-endpoint-connection"
         },
         "privateEndpointApiVersion": {
             "value": "2020-03-01"
         },
         "logicAppBEname": {
-            "value": "pplabLogicAppBE98"
+            "value": "armppLogicAppBE98"
         },
         "logicAppBEHostingPlanBEName": {
-            "value": "LogicAppBEPlan"
+            "value": "armLogicAppBEPlan"
         },
         "logicAppUse32BitWorkerProcess": {
             "value": true
@@ -125,16 +125,16 @@
             "value": "1"
         },
         "logicAppBEPrivateEndpointName": {
-            "value": "LogicAppBE-PrivateEndpoint"
+            "value": "armLogicAppBE-PrivateEndpoint"
         },
         "logicAppBEPrivateEndpointConnectionName": {
-            "value": "LogicAppBE-PrivateEndpointConnection"
+            "value": "armLogicAppBE-PrivateEndpointConnection"
         },
         "logicAppFEname": {
-            "value": "pplabLogicAppFE98"
+            "value": "armppLogicAppFE98"
         },
         "logicAppFEHostingPlanFEName": {
-            "value": "LogicAppFEPlan"
+            "value": "armLogicAppFEPlan"
         },
         "tags": {
             "value": {}
